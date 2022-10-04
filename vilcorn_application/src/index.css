@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* ========================================
+    HEADER DESIGN
+============================================*/
+
+.grid{
+  background-color: rgba(41, 0, 51, 0.596);
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-content: center;
+  font-size: 16px;
+  grid-gap: 2em;
+  justify-content: center;
+  color: white;
+}
+
+/* ==========================================
+    SEARCH FORM SECTION DESIGN
+==============================================*/
+form{
+  margin-top: 0.3em;
+}
+#search input{
+  color: white;
+  padding-left: 1.5em;
+  margin-left: -1em;
+  width: 60%;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+#search button {
+  margin: auto;
+  width: 20%;
+  height: 30px;
+  padding: 0.5em;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgb(164, 1, 185);
+  border-radius: 20px;
+  margin-left: 1em;
+  transition: all 0.5s;
+}
+#search button:hover {
+  background-color:  rgba(168, 73, 192, 0.596);
+  border: 1px solid rgb(42, 1, 48);
+  cursor: pointer;
+}
